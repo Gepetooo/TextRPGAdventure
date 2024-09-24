@@ -704,6 +704,7 @@ public class Coisas
                             titulo("Voce morreu...");
                             titulo("Voce ganhou "+jogador.getXp()+" na sua jornada. Tente ganhar mais na proxima vez!");
                             System.out.println("Obrigado por jogar. Espero que tenha gostado!");
+                            PauseConsole.pauseConsole();
                             jogoRodando = false;
                             break;
                         }
@@ -828,6 +829,7 @@ public class Coisas
                                 }
                                 System.out.print(" para "+jogador.getVida()+"!");
                                 separador(30);
+                                PauseConsole.pauseConsole();
                             }
                             else
                             {
@@ -923,6 +925,7 @@ public class Coisas
                                 }
                                 System.out.print(" para "+jogador.getVida()+"!");
                                 separador(30);
+                                PauseConsole.pauseConsole();
                             }
                             else
                             {
@@ -993,6 +996,7 @@ public class Coisas
                             titulo("Voce morreu...");
                             titulo("Voce ganhou "+jogador.getXp()+" na sua jornada. Tente ganhar mais na proxima vez!");
                             System.out.println("Obrigado por jogar. Espero que tenha gostado!");
+                            PauseConsole.pauseConsole();
                             jogoRodando = false;
                             break;
                         }
@@ -1128,6 +1132,7 @@ public class Coisas
                             titulo("Voce morreu...");
                             titulo("Voce ganhou "+jogador.getXp()+" na sua jornada. Tente ganhar mais na proxima vez!");
                             System.out.println("Obrigado por jogar. Espero que tenha gostado!");
+                            PauseConsole.pauseConsole();
                             jogoRodando = false;
                             break;
                         }
@@ -1154,6 +1159,7 @@ public class Coisas
                                 }
                                 System.out.print(" para "+inimigo.getVida()+"!");
                                 PauseConsole.pauseConsole();
+                                ClearConsole.clearConsole();
                             }
                             else
                             {
@@ -1274,6 +1280,7 @@ public class Coisas
                                 }
                                 System.out.print(" para "+jogador.getVida()+"!");
                                 separador(30);
+                                PauseConsole.pauseConsole();
                             }
                             else
                             {
@@ -1405,6 +1412,7 @@ public class Coisas
                                 }
                                 System.out.print(" para "+jogador.getVida()+"!");
                                 separador(30);
+                                PauseConsole.pauseConsole();
                             }
                             else
                             {
@@ -1479,6 +1487,7 @@ public class Coisas
                             titulo("Voce morreu...");
                             titulo("Voce ganhou "+jogador.getXp()+" na sua jornada. Tente ganhar mais na proxima vez!");
                             System.out.println("Obrigado por jogar. Espero que tenha gostado!");
+                            PauseConsole.pauseConsole();
                             jogoRodando = false;
                             break;
                         }
